@@ -1,4 +1,4 @@
-FROM leafney/docker-alpine-mysql
+FROM albinodrought/docker-alpine-mysql
 
 copy ./bootstrap.sh /scripts/bootstrap.sh
 RUN chmod +x /scripts/bootstrap.sh
